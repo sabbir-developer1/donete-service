@@ -1,0 +1,235 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+section{
+    margin: 80px 0px;
+}
+
+body{
+    
+    font-family: 'Roboto', sans-serif;
+}
+.container{
+    width: 1200px;
+    margin: 0 auto;
+}
+
+
+
+/* Header Section */
+
+#header{
+    background:linear-gradient(0deg, rgba(0, 0, 0, 0.6), rgba(255, 255, 255, 0.2)),  url(./images/images/donation2.jpg);
+    width: 100%;
+    height: 80vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    
+}
+.header-title{
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    
+}
+.header-title h1{
+    font-size: 80px;
+    text-align: center;
+}
+.header-title p{
+    margin: 20px 0px;
+    font-size: 22px;
+}
+.btn{
+    padding: 16px 16px;
+    background-color: #FF5959;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+/* Donate Section */
+.donate-section{
+
+}
+.donate-info{
+    text-align: center;
+
+}
+.donate-info h1{
+font-size: 60PX;
+font-weight: bold;
+margin: 20px 0px;
+}
+.donate-info p{
+    color: #707070;
+}
+.donate-ammount{
+    height: 40vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.donate-ammount .ammount{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    margin: 15px;
+    width: 135px;
+    height: 122px;
+    background-color: #FAFAFA;
+    border-radius: 5px;
+    color: #707070;
+
+
+}
+.donate-ammount .ammount span{
+    margin-left: 5px;
+    font-size: 16px;
+}
+.donate-ammount .active{
+    background: #FFEEEE;
+    border: 2px solid #FF5959;
+    border-radius: 5px;
+}
+.donate-input{
+    text-align: center;
+}
+.donate-input input{
+    padding: 10px;
+    margin-bottom: 10px;
+    color: #B3B3B3;
+    text-align: center;
+    font-size: 20px;
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid #DADADA;;
+}
+
+/* Donate Plan */
+.donate-info{
+    text-align: center;
+}
+.donate-services{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+.service{
+    width: 360px;
+    border-radius: 5px;
+    padding: 40px 20px;
+    margin: 20px;
+}
+.service h2{
+    padding: 15px 0px;  
+}
+.donate-services .food{
+    background: rgba(79, 157, 166, 0.1);
+}
+.donate-services .family{
+    background: rgba(255, 89, 89, 0.1);
+}
+.donate-services .education{
+    background: #FFF4D6;
+}
+
+
+
+/* TEam Work */
+.Team-Title{
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+.team{
+    display: flex;
+}
+.work{
+    margin: 20px;
+    width: 350px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    
+}
+.work img{
+    height:100%;
+    border-radius: 10px;
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Update Section */
+.update-title{
+    text-align: center;
+    
+}
+.update-title h2{
+    font-size: 60px;
+    font-weight: bold;
+    padding: 20px 0px;
+}
+.contact{
+    margin: 0 auto;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 60vw;
+    height: 200px;
+    background-color:#FFF4D6 ; 
+}
+.contact input{
+    font-size: 18px;
+    width: 50%;
+    padding: 16px 16px;
+    background: #D9D9D9;
+    border-radius: 5px 0px 0px 5px;
+    border: none;
+}
+
+
+/* Footer */
+
+.footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    color: white;
+    height: 177px;
+}
+.footer h2{
+    margin: 15px 0px;
+    color: #FF5959;
+    font-size: 40px;
+}
